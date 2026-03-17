@@ -1,3 +1,13 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/ph-site-notes/static/:path(.*)",
+      "destination": "https://eu-assets.i.posthog.com/static/:path"
+    },
+    {
+      "source": "/ph-site-notes/:path(.*)",
+      "destination": "https://eu.i.posthog.com/:path"
+    }
+  ]
 }

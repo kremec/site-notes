@@ -13,7 +13,9 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "posthog",
+      apiKey: "phc_s5Cm679eQLiuffKw7dBFwz9kkO0dLYc3pVCdNObQcpO",
+      host: "/ph-site-notes",
     },
     locale: "en-US",
     baseUrl: "notes.subbyte.dev",
